@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+ django:
+  build: .
+  container_name: komehdaht
+  ports:
+   - "8000:8000"
